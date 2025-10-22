@@ -1,4 +1,4 @@
-package greetings
+package main
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"golang.org/x/text/message"
 )
 
-func hello(name string) string {
+func Hello(name string) string {
 	// var message string
 	message := fmt.Sprintf("Hi, %v. Welcome!", name)
 	return message
